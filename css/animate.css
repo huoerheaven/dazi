@@ -1,0 +1,19 @@
+@keyframes fly {
+    0%{
+        transform: translate(40px,0);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+
+}
+
+@keyframes walk {
+    0%{
+        transform: translate(80px,0);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+
+}

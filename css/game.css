@@ -1,0 +1,296 @@
+html,body,a{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    color: #E21180;
+    font-size: 20px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.beijing{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+.beijing img{
+    width: 100%;
+    height: 100%;
+}
+.options{
+    width: 130px;
+    height: 100px;
+    position: fixed;
+    left:20px;
+    top: 0;
+    z-index: 1;
+}
+.options .buju{
+    width: 100px;
+    height: 25px;
+    background:#FFD900;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    float: left;
+    text-align:center;
+    line-height: 25px;
+    transition: all 2s ease;
+}
+.options .buju:hover{
+    transform: rotateY(360deg);
+}
+.options .gq{
+    width: 25px;
+    height: 25px;
+    background: #F493B7;
+    border-radius: 50%;
+    float: left;
+    color: #ffffff;
+    text-align:center;
+    line-height: 25px;
+    transition: all 2s ease;
+}
+.options .life{
+    width: 25px;
+    height: 25px;
+    background: #F493B7;
+    border-radius: 50%;
+    color: #ffffff;
+    float: left;
+    text-align:center;
+    line-height: 25px;
+    transition: all 2s ease;
+}
+.options .score{
+    width: 25px;
+    height: 25px;
+    background: #F493B7;
+    border-radius: 50%;
+    color: #ffffff;
+    float: left;
+    text-align:center;
+    line-height: 25px;
+    transition: all 2s ease;
+}
+.options .zscore{
+    width: 25px;
+    height: 25px;
+    background: #F493B7;
+    color: #ffffff;
+    border-radius: 50%;
+    float: left;
+    text-align:center;
+    line-height: 25px;
+    transition: all 2s ease;
+}
+.options .zscore:hover{
+     transform: rotateY(360deg);
+ }
+.options .score:hover{
+    transform: rotateY(360deg);
+}
+.options .life:hover{
+    transform: rotateY(360deg);
+}
+.options .gq:hover{
+    transform: rotateY(360deg);
+}
+.tankuang{
+    width: 200px;
+    height: 120px;
+    position: fixed;
+    left: 40%;
+    top:40%;
+    background:#FFDE59;
+    border-radius: 10px;
+    display: none;
+    z-index: 1;
+}
+.tankuang a{
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    color: #F9264C;
+    position: absolute;
+    left: 14px;
+    top:30px;
+}
+.tankuang .sure{
+    width: 40px;
+    height: 20px;
+    float: left;
+    background: #F9264C;
+    border-radius: 10px;
+    margin:80px 20px 80px 45px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+.tankuang .cancel{
+    width: 40px;
+    height: 20px;
+    float: left;
+    background: #F9264C;
+    margin:80px 10px 80px 7px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+.tankuang2{
+    width: 200px;
+    height: 120px;
+    position: fixed;
+    left: 40%;
+    top:40%;
+    background:#FFDE59;
+    border-radius: 10px;
+    display: none;
+    z-index: 1;
+}
+.tankuang2 a{
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    color: #F9264C;
+    position: absolute;
+    left: 30px;
+    top:30px;
+}
+.tankuang2 .sure{
+    width: 40px;
+    height: 20px;
+    float: left;
+    background: #F9264C;
+    border-radius: 10px;
+    margin:80px 20px 80px 35px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+.tankuang2 .cancel{
+    width: 40px;
+    height: 20px;
+    float: left;
+    background: #F9264C;
+    margin:80px 40px 80px 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+.tu1{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    right:30px;
+    bottom: 50px;
+    overflow: hidden;
+    animation: fly 1s linear infinite alternate;
+}
+.tu1 img{
+    width: 100px;
+    height: 120px;
+}
+.tu1:hover{
+    right: 20px;
+}
+.tu2{
+    width: 100px;
+    height: 220px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    animation: walk 1s linear infinite alternate;
+}
+.tu2:hover{
+    left: 20px;
+}
+.tu2 img{
+    width: 100px;
+    height: 220px;
+}
+.tu3{
+    width: 80px;
+    height: 95px;
+    position: absolute;
+    right: 40%;
+    bottom: 32%;
+    z-index: 2;
+    display: none;
+}
+.tu3 img{
+    width: 80px;
+    height: 95px;
+}
+.tu4{
+    width: 95px;
+    height: 100px;
+    position: absolute;
+    right: 40%;
+    bottom: 32%;
+    z-index: 2;
+    display: none;
+}
+.tu4 img{
+    width: 95px;
+    height: 100px;
+}
+.tu5{
+    width: 48px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+.tu5 img{
+    width: 48px;
+    height: 50px;
+}
+.tu6{
+    width: 48px;
+    height: 50px;
+    position: absolute;
+    right: 55px;
+    bottom: 0px;
+    z-index: 2;
+}
+.tu6 img{
+    width: 48px;
+    height: 50px;
+}
+.start{
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    right: 63px;
+    bottom:60px;
+}
+.start p{
+    font-size: 14px;
+    color: #D51572;
+    text-align: center;
+    line-height: 20px;
+}
+.end{
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    right: 6px;
+    bottom:60px;
+}
+.end p{
+    font-size: 14px;
+    color: #D51572;
+    text-align: center;
+    line-height: 20px;
+}
